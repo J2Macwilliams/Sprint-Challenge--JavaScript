@@ -79,6 +79,8 @@ graduates.forEach(function(item){
     return universities.push(item.university);
   });
 
+ 
+
 // Once you have the new array created, sort the universities alphabetically and log the result. 
 let universitiesSorted = [];
 universitiesSorted.push(universities.sort());
