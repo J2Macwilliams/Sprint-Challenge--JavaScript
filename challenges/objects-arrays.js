@@ -39,20 +39,21 @@ const vRaptor = {
 // Using your dinosaur objects, log answers to these questions:
 
 // How much did tyrannosaurus weigh?
-console.log();
+console.log(tRex.weight);
 
 // What was the diet of a velociraptor?
-console.log();
+console.log(vRaptor.diet);
 
 // How long was a stegosaurus?
-console.log();
+console.log(steg.length);
 
 // What time period did tyrannosaurus live in?
-console.log();
+console.log(tRex.period);
 
 
 // Create a new roar method for the tyrannosaurus.  When called, return "RAWERSRARARWERSARARARRRR!" Log the result.
-console.log();
+tRex.roar = () => "RAWERSRARARWERSARARARRRR!";
+console.log(tRex.roar);
 
 
 // ==== Arrays ====
