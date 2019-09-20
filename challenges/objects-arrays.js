@@ -73,11 +73,17 @@ const graduates = [
   { id: 10, first_name: "Hube", university: "Universitat Rovira I Virgili Tarragona", email: "hlethbrig9@foxnews.com" },
 ];
 
-/* Request 1: Create a new array called universities that contains all the universities in the graduates array. This will be an array of strings.
-
-Once you have the new array created, sort the universities alphabetically and log the result. */
+// Request 1: Create a new array called universities that contains all the universities in the graduates array. This will be an array of strings.
 const universities = [];
-console.log(universities);
+graduates.forEach(function(item){
+    return universities.push(item.university);
+  });
+
+// Once you have the new array created, sort the universities alphabetically and log the result. 
+let universitiesSorted = [];
+universitiesSorted.push(universities.sort());
+
+console.log(universitiesSorted);
 
 /* Request 2: Create a new array called contactInfo that contains both first name and email of each student. This will be an array of strings.
 
